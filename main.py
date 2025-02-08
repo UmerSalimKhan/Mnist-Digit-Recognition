@@ -7,7 +7,8 @@ if __name__ == "__main__":
 
     visualize_images(x_train, num_images=10) # Visualize first 10 images
 
-    model = create_model()
+    model_name = "cnn" 
+    model = create_model(model_name)
 
     visualize_model(model) # Visualize the model architecture
 
