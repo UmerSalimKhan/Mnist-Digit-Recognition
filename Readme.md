@@ -57,7 +57,7 @@ mnist_digit_recognition
 
 ![ANN Model Architecture](Images/model_architecture.png)
 
-### Convolution Neural Network (CNN)
+### Convolutional Neural Network (CNN)
 
 ![CNN Model Architechture](Images/cnn_model_architecture.png)
 
@@ -67,17 +67,15 @@ The model architecture consists of a simple ANN & CNN.  This are a relatively si
 
 The model was trained using the MNIST dataset. The following plots show the training and validation accuracy and loss curves for 5 and 10 epochs of training.
 
-### 5 Epochs -- ANN only
+### ANN - 5 Epochs
 
 ![Training History (5 Epochs)](Images/model_acc_loss_with_5_epochs.png)
 
-### 10 Epochs 
-
-#### ANN 
+### ANN - 10 Epochs 
 
 ![Training History (10 Epochs)](Images/model_acc_loss_with_10_epochs.png)
 
-#### CNN
+### CNN - 10 Epochs
 
 ![Training History (10 Epochs)](Images/cnn_model_acc_loss_with_10_epochs.png)
 
@@ -87,7 +85,7 @@ The MNIST dataset was used for training and evaluation.  It consists of 60,000 t
 
 ![Sample Data](Images/Data.png)
 
-## Training results from CNN 
+## CNN Training Results 
 
 ![Training results from CNN](Images/cnn_model_training_results.png)
 
